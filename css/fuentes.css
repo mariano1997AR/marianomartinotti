@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+JP:wght@300&family=Roboto+Flex:wght@200&family=Roboto:wght@100;300&family=Sacramento&display=swap');
+
+.topnav a {
+  font-family:'Roboto', sans-serif;;    
+}
+
+
+.column p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+.subtitulo{
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    font-size: 32px;
+    border-bottom: 6px solid #362706;
+    margin-bottom: 2px;
+}

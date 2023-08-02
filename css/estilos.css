@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: url("../img/maquina_escribir.jpeg");
+  background-size: cover;
+}
+
+/* Style the header */
+.header {
+  /*background-color: #f1f1f1;*/
+  background: url("/img/header.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -300px;
+  padding: 250px;
+  text-align: center;
+}
+#titulo{
+  color: #F1C27B;
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  display: flex;
+  text-align: center;
+  background-color: #3C6255;
+  justify-content: center;
+}
+
+/* Style the topnav links */
+.topnav a {
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  transition: all 2s;
+  border-radius: 15px 50px 30px 5px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  /*border: 1px solid black;*/
+  background-color: #4C4B16; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#4C4B16, #F7F1E5);
+  margin-top: 20px;
+  opacity: 0.7;
+}
+.subtitulo{
+  text-shadow: 2px 2px 4px #000000;
+  color: #FFF4F4;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer{
+  margin-top: 400px;
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+  body{
+    background-size: contain;
+  }
+  .topnav{
+      flex-direction: column;
+  }
+  footer{
+    margin-top: 20px;
+  }
+  .header{
+    /*background-image: none;*/
+    border: 1px solid black;
+    width: 100%;
+    padding: 20px;
+    height: 500px;
+  }
+  #titulo{
+    margin-top: 300px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+ 
+}
+

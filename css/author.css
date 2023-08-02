@@ -1,0 +1,37 @@
+/* Create three unequal columns that floats next to each other */
+.column_1 {
+    /*float: left;*/
+    padding: 20px;
+  }
+.cambiar_color{
+   color: #FAF3F0;
+}
+
+  /* Left and right column */
+
+#cambiar{
+    font-weight: bold;
+    color: #FAF3F0;
+}
+ul li{
+  list-style: none;
+  color: #FAF3F0;
+}
+   
+  .row_1{
+     /*font-weight: bold;*/
+     color: #070A52;
+  }
+  /* Clear floats after the columns */
+  .row_1::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .side_1, .middle {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,45 @@
+.background{
+    background:url("../img/footer.jpeg") repeat;
+}
+.transbox{
+    margin: 30px;
+    /*margin: 30px;*/
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+}
+
+.transbox p{
+    margin: 5%;
+    text-align: center;
+    font-weight: bold;
+    color: #473C33;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.transbox a{
+    text-decoration: none;
+    color: #473C33;
+}
+.transbox:hover{
+    transition: all 2s;
+    border-radius: 20px;
+    background-color: #116A7B;
+   
+}
+.transbox p:hover{
+    color: #FFF4F4;
+    transition: all 2s;
+    font-size: 25px;
+}
+
+@media screen and (max-width:900px) {
+    .background{
+        height: 150px;
+    }
+    .transbox{
+        margin: 40px 80px;
+    }
+   
+  }
+  

@@ -1,0 +1,70 @@
+.centrar{
+    text-align: center;
+}
+
+
+ul li{
+    font-weight: bold;
+    font-size: 20px;
+    list-style: none;
+}
+.transbox_1{
+    margin: 0 auto;
+    /*margin: 30px;*/
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+
+}
+.transbox_1 li{
+    margin: 5%;
+    text-align: center;
+    font-weight: bold;
+    color: #473C33;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.transbox_1 ul li:hover{
+    color: #FFF4F4;
+    transition: all 2s;
+    font-size: 25px;
+}
+@media screen and (max-width:900px) {
+
+    .transbox_1{
+        margin: 40px 80px;
+    }
+   
+  }
+
+.centrar:hover{
+    color: #FFF4F4;
+    transition: all 2s;
+    font-size: 25px;
+}
+.submenu_1 li {
+    color: black;
+}
+.lista{
+    font-size: 20px;
+    
+}
+.lista li{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+.logo_tec{
+    width: 40px;
+    height: 40px;
+    margin-bottom: -10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 50px;
+}
+.compromiso li{
+   background: #6C3428; 
+   transition: width 2s;  
+}

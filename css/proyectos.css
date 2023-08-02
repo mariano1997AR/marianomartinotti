@@ -1,0 +1,20 @@
+.content{
+    color: aliceblue;
+    text-align: center;
+}
+.parrafo{
+    width: 50em;
+    margin: 0 auto;
+    border: 1px solid black;
+    word-wrap: break-word;
+    margin-bottom: 15px;
+}
+.logo_1{
+    width: 300px;
+    border-radius: 80px;
+}
+.parrafo:hover{
+    transition: all 1s;
+    font-size: 20px;
+    width: 60em;
+}
