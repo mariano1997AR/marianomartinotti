@@ -8,4 +8,3 @@ Dejo aca mis redes sociales para mas comunicacion
 
 
 
-"# marianomartinotti.io" 
